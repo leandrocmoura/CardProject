@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardApi", "CardApi\CardApi.csproj", "{ABAE6815-3FE0-4C3C-BD0C-326880207F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardDomain", "CardDomain\CardDomain.csproj", "{1B7021DB-E692-4151-8BF9-FE36AD55890F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardApplication", "CardApplication\CardApplication.csproj", "{462755E3-0EBF-44A7-9127-32EEFF6BBC42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardInfrastructure", "CardInfrastructure\CardInfrastructure.csproj", "{6285A201-2F0E-417B-8566-C506E5A6DD48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABAE6815-3FE0-4C3C-BD0C-326880207F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAE6815-3FE0-4C3C-BD0C-326880207F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAE6815-3FE0-4C3C-BD0C-326880207F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAE6815-3FE0-4C3C-BD0C-326880207F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7021DB-E692-4151-8BF9-FE36AD55890F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7021DB-E692-4151-8BF9-FE36AD55890F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7021DB-E692-4151-8BF9-FE36AD55890F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7021DB-E692-4151-8BF9-FE36AD55890F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462755E3-0EBF-44A7-9127-32EEFF6BBC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462755E3-0EBF-44A7-9127-32EEFF6BBC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462755E3-0EBF-44A7-9127-32EEFF6BBC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462755E3-0EBF-44A7-9127-32EEFF6BBC42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6285A201-2F0E-417B-8566-C506E5A6DD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6285A201-2F0E-417B-8566-C506E5A6DD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6285A201-2F0E-417B-8566-C506E5A6DD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6285A201-2F0E-417B-8566-C506E5A6DD48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
