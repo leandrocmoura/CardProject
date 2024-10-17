@@ -18,7 +18,7 @@ namespace CardApplication.Services
             _cardRepository = cardRepository;
         }
 
-        public async Task<IEnumerable<CardDto>> GetCardsAsync(string filter, int pageSize)
+        public async Task<IEnumerable<CardDto>> GetCardsAsync(string filter)
         {
             var cards = await _cardRepository.GetAllCardsAsync(filter);
 

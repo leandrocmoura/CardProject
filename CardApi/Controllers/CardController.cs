@@ -22,9 +22,9 @@ namespace CardApi.Controllers
 
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CardDto>>> GetCards([FromQuery] string filter = "", [FromQuery] int pageSize = 0)
+        public async Task<ActionResult<IEnumerable<CardDto>>> GetCards([FromQuery] string filter = "")
         {
-            var cards = await _cardService.GetCardsAsync(filter, pageSize);
+            var cards = await _cardService.GetCardsAsync(filter);
             return Ok(cards);
         }
 

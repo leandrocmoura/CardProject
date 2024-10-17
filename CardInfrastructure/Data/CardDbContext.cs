@@ -17,6 +17,10 @@ namespace CardInfrastructure.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Card>()
+                 .HasKey(c => c.Id); 
+
+
+            modelBuilder.Entity<Card>()
                 .HasOne(c => c.Photo)
                 .WithMany()
                 .HasForeignKey(c => c.PhotoId)
